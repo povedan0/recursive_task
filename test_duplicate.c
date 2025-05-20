@@ -22,7 +22,7 @@ $ ./test_duplicate
 
 int main(int argc, char *argv[]) {
   int i;
-  int numbers[] = {1, 2, 3, 4, 4, 9, 9, 9, 10, 50};
+  int numbers[] = {1, 2, 3, 4, 4, 5, 6, 7, 7, 9, 9, 9, 10, 50};
 
   for (i = 0; i < 10; i++) {
     if (is_duplicate(i, numbers, sizeof(numbers) / sizeof(numbers[0]))) {
